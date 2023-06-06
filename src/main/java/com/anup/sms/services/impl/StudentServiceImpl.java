@@ -49,7 +49,6 @@ public class StudentServiceImpl implements StudentService {
 
 	@Override
 	public Student updateStudent(Student student) {
-		// TODO Auto-generated method stub
 		return studentRepository.save(student);
 	}
 	

@@ -63,7 +63,7 @@ public class StudentController {
 		
 		//save update student object
 		studentService.updateStudent(existingStudent);
-		  
+		 
 		return "redirect:/students" ;
 	}
 	
