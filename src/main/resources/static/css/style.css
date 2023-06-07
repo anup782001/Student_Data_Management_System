@@ -1,7 +1,7 @@
 @charset "ISO-8859-1";
 
 body{
-	background-image: url("/image/bgc.jpg");
+	background-color:rgb(179, 255, 102) ;
 	height:500 ;
 
 }

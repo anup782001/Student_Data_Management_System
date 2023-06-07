@@ -49,8 +49,8 @@ public class StudentController {
 		return "edit_student";
 	}
 	
-	@PutMapping("/students/{id}")
-	public String updateStudent(@PathVariable Long id , @ModelAttribute("student")Student student ,
+	@PostMapping("/students/{id}")
+	public String updateStudent(@PathVariable Long id , @ModelAttribute Student student ,
 			Model model) {
 		
 		
